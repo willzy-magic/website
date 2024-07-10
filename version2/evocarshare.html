@@ -1,0 +1,884 @@
+<!doctype html>
+<html lang="en" class="h-100">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>TRT_WILLZY</title>
+    <link rel="icon" href="#" type="image/x-icon">
+
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link
+        href="https://static2.format.com/static/theme_api/v1/hosted_fonts-eb726384a2140ff00e23f669c05ec8f0e6cdd3bebab581a38dbe829184a2aa4f.css"
+        media="screen" rel="stylesheet" type="text/css">
+
+    <!-- Bootstrap CSS -->
+    <!-- see also: https://getbootstrap.com/docs/4.5/getting-started/download/ -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+
+    <link rel="manifest" href="/docs/5.3/assets/img/favicons/manifest.json">
+
+    <link rel="icon" href="/docs/5.3/assets/img/favicons/favicon.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Cookie&display=swap" rel="stylesheet">
+    <!-- Custom styles -->
+    <link href="css/styles.css" rel="stylesheet"> 
+    
+</head>
+<header>
+    
+    <div class="menu-wrap bg-none">
+        
+        <input type="checkbox" class="toggler">
+        <div class="hamburger">
+            <div></div>
+        </div>
+        <div class="menu">
+            <div>
+                <div style="text-align: center;">
+                    <ul style="font-weight: 200; font-size: 12px">
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="About.html">ABOUT</a></li>
+                        <li><a href="#">UX Design</a></li>
+                        <li><a href="#">Photography</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<body class="d-flex flex-column h-100">
+
+    <!-- Insert Bootstrap Nav Bar here -->
+    <!-- https://getbootstrap.com/docs/4.5/components/navbar/ -->
+
+   
+    <div class="container">
+        <!-- Back to top button -->
+       
+        
+        <!-- Explanation -->
+        <h1 data-aos="fade-up" class="aos-init aos-animate">Evo Car Share Redesign</h1>
+        <img data-aos="fade-up" class="image aos-init aos-animate" src="img/evocarshare/evocarshare.jpg"
+            alt="Evocarshare" width="100%" height="auto" style="padding-top: 2rem;">
+        <div data-aos="fade-up" class="row g-5 text-center aos-init aos-animate" style="padding-top: 2rem;">
+            <div class="col-md-6">
+                <h4>ROLE</h4>
+                <p>UI/UX Designer</p>
+            </div>
+            <div class="col-md-6">
+                <h4>USED TIME</h4>
+                <p>7 weeks</p>
+            </div>
+            <div class="col-md-6">
+                <h4>INSTITUTION</h4>
+                <p>University Of British Columbia</p>
+            </div>
+            <div class="col-md-6">
+                <h4>PROJECT MEMBERS</h4>
+                <p>Shiyu(Will) / Celeste Wu / Hans Song</p>
+            </div>
+
+        </div>
+
+        <h2 data-aos="fade-up" class="featurette-heading aos-init" style="padding-top: 2rem;">Introduction</h2>
+        <p>The purpose of this project is to investigate the
+            usability issues of the Evo app and redesign the interface, which will make a meaningful impact
+            on the user experience. Currently, the lack of information transparency in cost and customer
+            support may lead to confusion and overwhelm for inexperienced users. As driving has already
+            been a source of pressure for many drivers (Meyer, 2022), redesigning the Evo app interface
+            could potentially help Evo users to reduce the psychological burden of using the app while they
+            are on the road and further improve their driving experience.</p>
+        <h2 data-aos="fade-up" class="featurette-heading aos-init" style="padding-top: 2rem;">Mission Statement</h2>
+        <p data-aos="fade-up" class="aos-init">Evo Car Share does not have their own mission or vision statement. As a
+            product and service
+            owned by BCAA, Evo is aligned with BCAA’s values and goals. Given BCAA’s purpose of
+            “empowering British Columbians to move forward” and mission of “inspiring every British
+            Columbian to be a member” (BCAA, n.d.), our team concluded the Evo Car Share’s mission
+            statement as follows:</p>
+        <h5 data-aos="fade-up" style="text-align: center" class="aos-init">“To develop a shared transport network of
+            flexibility and sustainability for British
+            Columbians to get around with confidence.”</h5>
+        <h2 data-aos="fade-up" class="featurette-heading aos-init" style="padding-top: 2rem;">Goals and Objectives</h2>
+
+        <div data-aos="fade-up" style="padding-top: 2rem;" class="aos-init">
+            <li>Convert potential users to loyal Evo users</li>
+            <li>Enable users to find and access a car anytime</li>
+            <li>Offer users the flexibility of short-term car rental</li>
+            <li>Encourage users to move around with a hybrid vehicle</li>
+            <li>Enable users to make or cancel reservations</li>
+            <li>Enable users to unlock the doors and start the trip with the click of a button</li>
+            <li>Enable users to track the trip progress</li>
+            <li>Provide users with increased ease of access to parking facilities</li>
+            <li>Enable users to make a stopover or end the trip</li>
+            <li>Support users when they are in need of assistance through 24/7 customer service line and
+                in-app FAQs</li>
+            <li>Allow users to return the car at a different location</li>
+        </div>
+        <h2 data-aos="fade-up" class="featurette-heading aos-init" style="padding-top: 2rem;">Major Stakeholders</h2>
+        <p data-aos="fade-up" class="aos-init"> The major stakeholders we identified are end users, Evo management and
+            operations team,
+            BCAA, and local government.</p>
+        <div data-aos="fade-up" class="aos-init">
+            <h6 style="text-decoration: underline;">Primary Users</h6>
+            <p data-aos="fade-up" class="aos-init">By definition, end users are the people who actually use the product
+                and service. Evo’s end users
+                include but are not limited to potential users or likely car-sharing customers who would like to
+                rent a vehicle for a short time period, infrequent Evo users who use Evo’s cars for transport with
+                a low reuse rate, and frequent or loyal Evo users who have used the services for a long period of
+                time. As required by Evo, users need to be at least 18 years old, have a credit card, a valid
+                driver's license, 2 years of driving experience, and meet the driving requirement verified by the
+                driving record check in order to become an Evo member (Evo, n.d.-a). Evo users heavily rely on
+                the app to pick up and drop off their vehicles. They pay either hourly or daily rates to Evo in
+                exchange for the temporary possession of the vehicle.</p>
+        </div>
+        <div data-aos="fade-up" class="aos-init">
+            <h6 style="text-decoration: underline;">Vulog</h6>
+            <p data-aos="fade-up" class="aos-init">Vulog is a technology provider for shared mobility solutions,
+                including car sharing, bike sharing,
+                scooter sharing, and all forms of corporate transportation rental. Vulog’s mission is to “make a
+                positive impact on the planet via technological innovations that revolutionize mobility” (Vulog,
+                n.d.). Vulog works as a product development and operations team that helps to build the Evo app
+                as well as Evo’s in-car technology solutions like GPS tracking.</p>
+        </div>
+        <div data-aos="fade-up" class="aos-init">
+            <h6 style="text-decoration: underline;">British Columbia Automobile Association</h6>
+            <p data-aos="fade-up" class="aos-init">BCAA is the parent company and direct investor of Evo Car Share. BCAA
+                offers auto-related
+                products and services, including car insurance, roadside assistance, auto repair, and Evo Car
+                Share. As one of the product offerings, Evo supports BCAA’s goal of “empowering British
+                Columbians to move forward” and their belief in “protecting our home” and “shaping the future”
+                through revolutionary hybrid vehicles with a roof-top bike rack.</p>
+        </div>
+        <div data-aos="fade-up" class="aos-init">
+            <h6 style="text-decoration: underline;">Local Government</h6>
+            <p data-aos="fade-up" class="aos-init">Evo Car Share works closely with local governments like the City of
+                Vancouver to fill the market
+                gap of carsharing demands from high urban population density and achieve the goal of
+                sustainable transportation. Convenience around accessing and parking Evo vehicles creates a
+                focal point in product marketing and gains the popularity of the service among young,
+                environmentally conscious people. The city governments help to make designated Evo parking
+                spaces possible, giving users the flexibility of returning an Evo car in any approved spot in
+                Metro Vancouver.</p>
+        </div>
+        <h2 data-aos="fade-up" class="featurette-heading aos-init" style="padding-top: 2rem;">User Need Analysis</h2>
+        <div data-aos="fade-up" class="aos-init">
+            <h6 style="text-decoration: underline;">Potential Users</h6>
+            <p data-aos="fade-up" class="aos-init">Potential Evo users are the group of people who have a potential
+                interest in using the Evo
+                car-sharing services but have never tried it out. Most of the potential users are also first-time
+                users of a car-sharing program. The major tasks they would accomplish on the app are
+                registering an account, completing the driver's license information, searching for an Evo car
+                nearby, and booking a car. We also expect that potential users would seek customer support and
+                other forms of helpful information when needed. An intuitive and navigable onboarding
+                experience is critical for potential users to build up their mental model and quickly adapt to the
+                Evo app.</p>
+        </div>
+        <div data-aos="fade-up" class="aos-init">
+            <h6 style="text-decoration: underline;">Infrequent Users</h6>
+            <p data-aos="fade-up" class="aos-init">Infrequent users are defined as Evo users who have used the Evo
+                car-sharing service a couple of
+                times but only visit back to the app again for specific purposes. We expect that most infrequent
+                users do not see car-sharing as their primary means of transportation. The major tasks infrequent
+                users would accomplish on the app are signing in to the account, booking a car, and looking for
+                specific information like billing, parking, and refueling. Different from potential users,
+                infrequent users have already built up their mental models of using the Evo app but they are far
+                from being an expert on the functionality and navigation of the app. Even a small usability pitfall
+                would hurt their satisfaction, cause confusion, and possibly lead them to forge the use of the app.</p>
+        </div>
+        <div data-aos="fade-up" class="aos-init">
+            <h6 style="text-decoration: underline;">Frequent or Loyal Users</h6>
+            <p data-aos="fade-up" class="aos-init">Frequent or loyal users are the groups of people who prefer using Evo
+                car-sharing services on a
+                frequent basis. We expect that many of the frequent or loyal users consider Evo as one of their
+                primary modes of transportation. The major tasks they would accomplish on the app are booking
+                a car, exploring new features, and contacting customer service for help. As they have already
+                established a level of experience navigating the Evo app, frequent or loyal users would expect
+                some shortcuts to skip unnecessary information and speed up the interactions.</p>
+        </div>
+        <div data-aos="fade-up" class="aos-init">
+            <h2 data-aos="fade-up" class="featurette-heading aos-init" style="padding-top: 2rem;">Competitor Analysis
+            </h2>
+            <h6 style="text-decoration: underline;">Method and Process</h6>
+            <p data-aos="fade-up" class="aos-init">Based on the stated mission, goals, objectives, and the identified
+                potential user groups of our
+                mobile application, our team began the competitor analysis by identifying existing
+                applications that provide similar services. We found that there are numerous apps in the
+                transportation industry providing mobility service, but there are significantly fewer options for
+                local users (British Columbians) who want to flexibly pick up and drop off cars in different
+                locations. Since Evo is focused on a shared vehicle network in BC, we looked for four relatively
+                widely-used competitor apps that provide mobility services. We selected two apps that are also
+                focused on car-sharing services as our direct competitors and two indirect competitors that offer
+                a slightly different product but target a similar audience.</p>
+        </div>
+        <div class="row row-cols-1 row-cols-sm-2">
+            <div data-aos="fade-up" class="col-md-6 aos-init">
+
+                <a href="https://docs.google.com/spreadsheets/d/1Y5aGycga8MweDJvGpsAzHQSb5JprdtW0PJ0464wfbeo/edit?usp=share_link"
+                    target="_blank"><img class="image2" src="img/evocarshare/competitor_analysis.jpg"
+                        alt="competitor_analysis" width="100%" height="auto"></a>
+                <p class="text-center" style="padding-top: 1rem;"><i>Competitor Analysis</i></p>
+            </div>
+            <div data-aos="fade-up" class="col-md-6 aos-init">
+                <div>
+                    <a href="https://docs.google.com/spreadsheets/d/1Y5aGycga8MweDJvGpsAzHQSb5JprdtW0PJ0464wfbeo/edit?usp=share_link"
+                        target="_blank"><img class="image2" src="img/evocarshare/heuristic_evaluation.jpg"
+                            alt="heuristic_evaluation" width="100%" height="auto"></a>
+                    <p class="text-center" style="padding-top: 1rem;"><i>Heauristic Evaluation</i></p>
+
+
+                </div>
+            </div>
+        </div>
+
+        <div data-aos="fade-up" class="aos-init">
+            <h2 class="featurette-heading" style="padding-top: 2rem;">User Review Analysis</h2>
+
+            <div data-aos="fade-up" class="row featurette aos-init" style="padding-top: 2rem;">
+                <div class="col-md-7">
+                    <h6 style="text-decoration: underline;">Method and Process</h6>
+                    <p>Product reviews are one of the most thorough and useful sources of insider information about the
+                        customer and user experience, which could be used to debug the current product and initiate new
+                        feature designs (Dye, 2021). Our team looked into 49 user reviews on the Evo Car Share mobile
+                        application to gauge Evo customers’ perspectives on what usability issues to focus on and how to
+                        improve the user experience. The goal of the review analysis is to transform the unstructured
+                        qualitative data into structured findings that lead to a better understanding of Evo's current
+                        product offering and prepare us for the usability study.</p>
+                    <p>We decided to study the user reviews on the App Store because it’s one of the most commonly
+                        adopted app distribution channels for phone users. We determined the time frame for data
+                        collection to be from September 1, 2022, to October 12, 2022, which is the date of research.
+                        This
+                        has helped us to narrow down the focus to current reviews and avoid spending unnecessary time
+                        looking into outdated reviews that could be already noticed and addressed by the Evo operations
+                        team. We copied and pasted each review into a sticky note on Miro for further visualization
+                        analysis.</p>
+                </div>
+                <div class="col-md-5">
+                    <a href="https://miro.com/welcomeonboard/ZUNZdXN0Q3FxSHZGMHFrNTk5bkVvQ2FCc2lNa3Q4Z1
+dDN2plWVllQWVZWEtCMWc5SDVRTml5SWxiQ1ZhajhyRXwzNDU4NzY0NTM1OTk1MjI
+0ODUxfDI=?share_link_id=991930329026" target="_blank"><img src="img/evocarshare/affinity diagram.png" width="100%"
+                            height="auto"></a>
+                    <p class="text-center" style="padding-top: 1rem;"><i>Affinity Diagram</i></p>
+
+                </div>
+
+            </div>
+            <div data-aos="fade-up" class="aos-init">
+                <h6 style="text-decoration: underline;">Finding</h6>
+                <li><b>Users love Evo:</b> 10 out of 49 reviews express their interest and gratitude for Evo’s
+                    reliable and functional car-sharing services. This is supported by user reviews like “Much
+                    improved over previous versions. Daily user who appreciate the speed improvements and
+                    increased stability” and “Evo makes it easy to hop in a car for short trips”.</li>
+                <li style="padding-top: 1rem;"><b>Users want to use Evo as long as the information on the app is clear
+                        and intuitive:</b> 22
+                    out of 49 user reviews address the need for a simple and clear interface. Evo users are
+                    looking for functionality that allows them to see other available cars on the map even
+                    after booking. Users mention “I dislike that once you book a car, you are no longer to see
+                    if a closer available one pops up” and “Now it's time to add a notification function that let
+                    me know when there is new car near me in specific distance I set”. Users are also looking
+                    for more information about the trip details and the location of the car. One of the reviews
+                    says, “Cars are often not where they say they are… App often shows no cars anywhere or
+                    just crashes mid booking.” The user reviews also convey the importance of the
+                    availability and transparency of safety and hygiene information to the users, where one of
+                    the reviews says, “[For safety check-in feature on the app] It is particularly difficult to
+                    comprehend what damage one is seeing in a photo relative to the automobile because of
+                    how they show up on the thumbnail page”.</li>
+                <li style="padding-top: 1rem;"><b>Users want the experience with Evo to be more time efficient:</b> Five
+                    users have
+                    complained about the information overload on the Evo app, which overwhelms their
+                    minds, drains judgemental ability, affects their focus while driving, and makes their
+                    experience frustrating. Users point out that “There is so many buttons to click now. I just
+                    want to get in the car and leave” and “LOL at Evo thinking people actually look at the
+                    million damage pics for 10 minutes on their dime before they drive”. Two users address
+                    their challenges with finding available cars nearby due to limited coverage. One of them
+                    says, “I enjoy the whole program. They just need more cars”.</li>
+                <li style="padding-top: 1rem;"><b>Users think Evo do need make some changes:</b> 15 out of 49 users show
+                    their dissatisfaction with the Evo app because
+                    of the recurring technical glitches. This is supported by “If this app worked the way it
+                    was intended even 50% of the time I'd give it 5 stars”, “Cars are awesome, app really
+                    glitchy”, and “Happened with me more that once, the app block and didn't finish the trip,
+                    this should be fix”.</li>
+            </div>
+            <div data-aos="fade-up" class="aos-init">
+                <h2 class="featurette-heading" style="padding-top: 2rem;">Usability Study</h2>
+                <h6 style="text-decoration: underline;">Method and Process</h6>
+                <p>We conducted a usability study on 6 people through convenience sampling. The goal of the
+                    usability study is to investigate the ease of access and use of the Evo Car Share mobile
+                    application. The study consists of two parts, including a user test followed by a short
+                    semi-structured interview</p>
+
+
+                <h6 style="text-decoration: underline;">Finding</h6>
+                <li style="padding-top: 1rem;">There was no correlation between participants' fluency with the software
+                    and their
+                    familiarity with the technology. Because there is not a massive difference in how quickly
+                    people get tasks done, whether they use mobile Apps for an hour or five hours a day.</li>
+                <li style="padding-top: 1rem;">When asking for tasks, we find that all participants are trying to finish
+                    the task on the
+                    homepage. Especially when asking about parking tips, participants are more likely to
+                    zoom in on the map to find clues.
+                </li>
+                <li style="padding-top: 1rem;"> There is too much information on the Menu page, and some icons used are
+                    confusing. For
+                    example, "My credits" has a clock icon, "Billing" has a wallet icon, and "Evo extras" has
+                    a money icon. It is hard to tell the difference between a wallet and a money icon.
+                </li>
+                <li style="padding-top: 1rem;">The App should not show all cars available for users. We observed that
+                    users would only
+                    select cars near their current location, while cars in other locations were utterly
+                    redundant.
+                </li>
+                <li style="padding-top: 1rem;">The position of the filter button is not apparent, four participants
+                    never used this function,
+                    and one participant said he did not see it.
+                </li>
+                <li style="padding-top: 1rem;">The sign-in process takes too much time, and the expression of the
+                    question is unclear,
+                    such as "Is your driver's license address the same as your mailing address?". When the
+                    participant fills in the checkmark, the App asks for the address again, which is
+                    contradictory.
+                </li>
+            </div>
+            <div data-aos="fade-up" class="aos-init">
+                <h2 class="featurette-heading" style="padding-top: 2rem;">Major Findings</h2>
+                <p>Based on the results from our Competitor Analysis, Review Analysis, and Usability Study, we
+                    identified four major findings about common user needs and the app features that best support
+                    users. Here’s the summary of user need analysis:</p>
+                <li style="padding-top: 1rem">Since an increasing number of users prefer one-way point-to-point car
+                    rentals, valuing its
+                    convenience and ease of use, Evo should continue to provide a one-way point-to-point
+                    car sharing service, helping users to achieve a streamlined and integrated experience.
+                    Besides, in order to meet users’ diverse needs and preferences, Evo is expected to vary
+                    the types and models of its fleet to provide users with more choices in selecting cars and
+                    improve the hygiene and safety of their fleets. Additionally, due to the common user need
+                    for one-way point-to-point car rentals, Evo can expand their service beyond BC to cover
+                    more cities.</li>
+                <li style="padding-top: 1rem">Regarding information and interaction, Evo should follow the principle of
+                    minimalist
+                    design, providing all critical resources and reducing the amount of unnecessary
+                    information. Specifically, car location information and instructions for users to find them,
+                    trip records and car using tips (like parking, refueling), help information, and first-user
+                    instructions are necessary, all of which should be provided in detail. Besides, in order to
+                    avoid language or icon misunderstanding, information and instructions should be
+                    communicated using daily, proper, plain, and clear language. Further, with the intention
+                    of reducing information overload, information should also be organized in an intuitive,
+                    logical, accessible, and more easily-findable way. Moreover, critical interaction features
+                    such as key shortcuts and buttons should be included and presented in a clear and
+                    well-organized way, demonstrating to users a clear, direct, and easy-to-learn approach.
+                    Last but not least, Evo should shorten their registration process, and require less
+                    registration information at the beginning, in case of irritating and losing prospective
+                    users.</li>
+
+                <li style="padding-top: 1rem">In terms of the aesthetic design of the user interface, theme color, font
+                    style and size, and
+                    icons should be kept consistent in all pages and areas, and conform to most conventions
+                    in mobile apps. Considering the heterogeneity of the demographics in BC in ages and
+                    backgrounds, information needs and behaviors, information literacy, and technology
+                    experience, Evo is expected to give more choices and freedom for users to customize the
+                    21
+                    app according to their needs, preferences, and scenarios, which will enhance the
+                    flexibility and efficiency in user experience.</li>
+                <li style="padding-top: 1rem">The last major finding is about technological glitches and system errors,
+                    which are
+                    complained about by many users in ratings and reviews. These complaints echo our
+                    heuristic evaluation in the competitor analysis and usability study, such as missing icons,
+                    confusing functions, unresponsive buttons, mismatch of buttons and pages, etc. Evo
+                    should eliminate any technological glitch and system error once they identify or receive
+                    criticism as soon as possible, in either the redesign stage or later maintenance and
+                    improvement stage, which is necessary and critical to enlarge their user group, improve
+                    user loyalty, and achieve high recognition in a wide range of areas in the long run.</li>
+
+
+            </div>
+            <div data-aos="fade-up" class="aos-init">
+                <h2 class="featurette-heading" style="padding-top: 2rem;">Persona</h2>
+                <div class="row featurette">
+                    <div class="col-md-6">
+                        <img src="img/evocarshare/persona1.png" width="100%" height="auto">
+                        <p style="text-align: center; padding-top: 1rem;">Persona1</p>
+                    </div>
+                    <div class="col-md-6">
+
+                        <img src="img/evocarshare/persona2.png" width="100%" height="auto">
+                        <p style="text-align: center; padding-top: 1rem;">Persona2</p>
+                    </div>
+                    <div class="col-md-6">
+                        <img src="img/evocarshare/persona3.png" width="100%" height="auto">
+                        <p style="text-align: center; padding-top: 1rem; ">Persona3</p>
+                    </div>
+                    <div class="col-md-6">
+
+                        <img src="img/evocarshare/persona4.png" width="100%" height="auto">
+                        <p style="text-align: center; padding-top: 1rem;">Persona4</p>
+                    </div>
+
+
+                </div>
+            </div>
+            <div data-aos="fade-up" class="aos-init">
+                <h2 class="featurette-heading" style="padding-top: 2rem;">Content Inventory</h2>
+                <p>The current content inventory of the Evo Car Share app is listed here <a
+                        href="https://docs.google.com/document/d/1RjIU96mdtnaUjgvpmSOfRVSospqkvCakthH-AwzNpYE/edit?usp=sharing"
+                        target="_blank">(Click here to see the detail)</a>.</p>
+
+            </div>
+            <div data-aos="fade-up" class="aos-init">
+                <h2 class="featurette-heading" style="padding-top: 2rem;">Task Analysis</h2>
+                <a href="https://docs.google.com/document/d/1ZFyOpCAev2Nzl2Of3BAzixE_RyX4iWKuyjIOZ1dsr6s/edit?usp=share_link"
+                    target="_blank">
+                    <p>Please click here to see the full detail of task analysis</p>
+                </a>
+
+            </div>
+            <div data-aos="fade-up" class="aos-init">
+                <h2 class="featurette-heading" style="padding-top: 2rem;">Information Architecture</h2>
+                <h6 style="text-decoration: underline;">Current Information Architecture</h6>
+                <p>The current information architecture of the Evo Car Share app
+                    compromises 3 major sections, including “find a ride”, “my bookings”, and “menu”. The current
+                    information architecture is function-oriented and mutually exclusive in terms of the actions
+                    intended. We consider it an appropriate and effective way to categorize the tasks and help the
+                    users to find a particular action or service they would like to proceed with.</p>
+                <img data-aos="fade-up" class="image aos-init" src="img/evocarshare/currentIA.png" alt="Evocarshare"
+                    width="100%" height="auto" style="padding-top: 1rem;">
+            </div>
+            <div data-aos="fade-up" class="aos-init">
+                <h2 class="featurette-heading" style="padding-top: 2rem;">Card Sorting</h2>
+                <h6 style="text-decoration: underline;">Methods and Process</h6>
+                <p>We conducted an open card sorting test with 10 participants to investigate the labeling and
+                    grouping issues with the current Evo interface and potential ways to redesign it. An online
+                    software called Optimal Sort was used to allow participants to sort cards independently on their
+                    own computers. Participants were asked to categorize cards into groups that make sense to them
+                    and label each group with an ideal group name. We decided to use an open card sorting method
+                    primarily because we were interested in 1) the degree to which different users would create
+                    similar groups of cards, and 2) how users might label these groups. We considered that these two
+                    questions would be critical to help us to redesign user-centered global and local navigation menu
+                    labels.</p>
+                <p>We created 24 cards, each representing an item of content on the menu page. These content items
+                    were identified by our content assessment of the current app, supplemented or adapted based on
+                    the findings of the competitor analysis and user research in part 1. The following lists out the
+                    cards.</p>
+                <img data-aos="fade-up" class="image aos-init" src="img/evocarshare/cards.jpg" alt="Evocarshare"
+                    width="100%" height="auto" style="padding-top: 1rem;">
+                <p style="padding-top: 1rem;">We recruited 10 participants to perform an open card sort of the 24 cards
+                    using the card sorting
+                    tool Optimal Sort. The card sorting exercise took the 10 participants a median time of 5 minutes
+                    and 8 seconds to complete the study. The longest time was 30 minutes and 13 seconds. The
+                    shortest time was 2 minutes and 7 seconds. And the 10 participants created a total of 48
+                    categories, with a median of 5 categories each.</p>
+                <h6 style="text-decoration: underline;">Analysis and Results</h6>
+                <p>Once the card sorting was completed, we standardized the results as recommended by Optimal
+                    Workshop. This involved “merging”, for purposes of our analysis, categories generated by
+                    respondents that were conceptually similar, such as ”FAQ”, “Q &amp;A”, “Questions &amp;
+                    Instructions”
+                    and “General Question”. This standardization helps when exploring the degree to which different
+                    users would sort cards into conceptually-similar groups regardless of label names.</p>
+                <p>After the standardization process was complete, we reviewed the dendrograms (Best merge
+                    method) (Figure 1) and similarity matrix (Figure 2) visualizations provided by the Optimal Sort
+                    software, which illustrates the card sorting results and indicates that some labels should be
+                    grouped together based on wide consensus.</p>
+                <div data-aos="fade-up" class="row featurette aos-init" style="padding-top: 1rem;">
+                    <div class="col-md-6">
+                        <img src="img/evocarshare/dendrograms.png" width="100%" height="auto">
+                        <p class="text-center" style="padding-top: 1rem;"><i>Figure 1</i></p>
+
+                    </div>
+                    <div class="col-md-6">
+                        <img src="img/evocarshare/similarity_matrix.png" width="100%" height="auto">
+                        <p class="text-center" style="padding-top: 1rem;"><i>Figure 2</i></p>
+
+                    </div>
+                </div>
+                <p>We decided on the “best merge method dendrogram” instead of the “actual agreement method
+                    dendrogram (skeptical dendrogram)”. The “best merge method” makes assumptions about larger
+                    clusters based on individual pair relationships, which often performs better than the actual
+                    agreement method when the study has fewer participants. Since we only had 10 participants, the
+                    best merge method dendrogram is more appropriate than the “actual agreement method
+                    dendrogram” which works best with 30 or more participants and depicts only absolutely factual
+                    relationships.</p>
+                <p>According to the results from the dendrograms (best merge method) and similarity matrix as well
+                    as the labeling and grouping of the redesigned information architecture of the menu page, we
+                    revised its original information architecture. After merging the cards “Parking related questions”
+                    and “Parking tips” as one card “Parking tips &amp; questions”, the 30 labels (the 23 cards in 7
+                    groups) are as follows:</p>
+                <img src="img/evocarshare/labels_and_groups.png" width="100%" height="auto">
+
+            </div>
+            <div data-aos="fade-up" class="aos-init">
+                <h2 class="featurette-heading" style="padding-top: 2rem;">Redesigned Information Architecture</h2>
+                <p>Based on the findings from card sorting, we have created the redesigned information architecture as
+                    follows</p>
+                <img src="img/evocarshare/redesignedIA.png" width="100%" height="auto">
+                <h6 style="text-decoration: underline; padding-top: 1rem;">Global and Local Navigation</h6>
+                <p>Global navigation on the Evo app is represented by the bottom navigation bar where users can
+                    tap to access the primary pages of the App, including "Find a ride", "My bookings", and "Menu".
+                    It shows users where they are, where they can go, and how they can get there. To navigate
+                    between sections within a page, local navigations, including filters and back buttons, are
+                    provided for users to select a piece of particular information and return to the previous stage.</p>
+                <p>Evo’s navigation meets the principle of consistency. The location of the bottom navigation bar
+                    does not change when users switch to other pages on the app. Additionally, there is interaction on
+                    each bottom navigation tab. For example, when the user taps on a navigation tab, the color of the
+                    tab will be highlighted to inform the change in the system status. As for local navigation, on the
+                    "Find a ride" page, there are two function buttons at the top right corner to help users sort and
+                    find the vehicle they are looking for. On the "Menu" page, the local navigation contains 9 pages
+                    to help users find the help and documentation information they need.</p>
+                <p> We decided to keep using the original typography and color palette for the redesign to ensure the
+                    consistency of Evo’s branding. We planned to redesign the local navigation on the home page
+                    12
+                    based on the usability testing feedback. Moreover, we planned to replace the "see
+                    vehicle list" icon button with a drag-down overlap above the map view for more smooth and
+                    intuitive interaction.</p>
+                <h6 style="text-decoration: underline; padding-top: 1rem;">Labeling and Grouping</h6>
+                <p>In the redesign stage, we would like to maintain the internal consistency of labeling with Evo’s
+                    branding while making a couple of adjustments to the grouping of information. The iconic labels
+                    used in the bottom navigation bar and menu items help to provide consistent and easily
+                    understandable content for inexperienced users and provide an aesthetically appealing visual
+                    experience. The icons used on Evo’s interface reflect their real-world counterparts and are fast to
+                    recognize at a glance. For example, the icon of a magnifying glass is to represent the “Find a
+                    ride” function and the icon of a calendar is to represent the “My bookings” function. For most
+                    other clickable labels on the app, we decided to use text-based navigation tabs and buttons to
+                    streamline users’ browsing experience and improve the readability of the content-heavy menu
+                    page.</p>
+                <p>As informed by the card sorting findings, we updated the grouping of information categories on
+                    the “Menu” page to match the system’s conceptual model with the users’ mental model. We
+                    believed the level of agreement within the participants’ grouping indicates an optimal way to
+                    categorize different sections within pages and determine the information hierarchy. For example,
+                    the number of text buttons on the “Menu” screen has now converged from 9 to 7 categories. And
+                    some of the information like “parking tips” are placed in a lower hierarchy under the “FAQ”
+                    category to reflect the hierarchical relationship from a broad group of information to a specific
+                    topic of information. The order of the categories has altered as well. Inspired by the app interface
+                    of Uber, we planned to increase the button size of "FAQ" and "Billing" and have them placed in
+                    the first row of the menu. This is because we would like to ensure users are able to locate the
+                    most important information in the first place when they open up the menu page for help and
+                    assistance. Another design consideration we decided to make is moving the “call for help” button
+                    away from “contact us”, because usability testing has informed us that participants get confused
+                    about which button to click on when they need roadside assistance.</p>
+            </div>
+            <div data-aos="fade-up" class="aos-init">
+                <h2 class="featurette-heading" style="padding-top: 2rem;">Pencil and Paper Prototype Drawings</h2>
+                <h6 style="text-decoration: underline; padding-top: 1rem;">Processes</h6>
+                <p>Since high-fidelity prototypes have many disadvantages (i.e. time-consuming, designers resisting
+                    changes), we decided to sketch the low-fidelity prototype using paper and pencil as our first
+                    prototype in the iterative design process. Low-fidelity prototyping like paper and pencil
+                    prototyping enabled the design team to focus on the structure, functions, and features of the app.
+                    It is also time and cost-saving, fast to implement, and easier to change and recreate regarding
+                    some specific features or the whole prototypes, which has more potential to increase the number
+                    of possible iterations than high-fidelity prototypes.</p>
+                <p>Taking into consideration the useful information gathered in the previous research that informs
+                    the redesigned information organization, we created and annotated our pencil and paper
+                    prototypes by walking through the steps needed to complete the 6 user task scenarios designed in
+                    part 1. When considering these paper prototypes for 6 user task scenarios together, they are broad
+                    enough to cover most of the features and functions of the app. When presented separately, they
+                    are also complete and in-depth enough to evaluate the selected features and functions in each
+                    task scenario, which balanced the advantages of vertical and horizontal prototyping.</p>
+                <h6 style="text-decoration: underline; padding-top: 1rem;">Pencil and Paper Prototype</h6>
+                <div data-aos="fade-up" class="row featurette aos-init" style="padding-top: 1rem;">
+
+                    <div class="col-md-6">
+                        <img src="img/evocarshare/paper_prototype1-min.png" width="100%" height="auto">
+
+                    </div>
+                    <div class="col-md-6">
+                        <img src="img/evocarshare/paper_prototype2-min.png" width="100%" height="auto">
+
+                    </div>
+                </div>
+                <div data-aos="fade-up" class="row featurette aos-init" style="padding-top: 1rem;">
+
+                    <div class="col-md-6">
+                        <img src="img/evocarshare/paper_prototype3-min.png" width="100%" height="auto">
+
+                    </div>
+                    <div class="col-md-6">
+                        <img src="img/evocarshare/paper_prototype4-min.png" width="100%" height="auto">
+
+                    </div>
+                </div>
+                <div data-aos="fade-up" class="row featurette aos-init" style="padding-top: 1rem;">
+
+                    <div class="col-md-6">
+                        <img src="img/evocarshare/paper_prototype5-min.png" width="100%" height="auto">
+
+                    </div>
+                    <div class="col-md-6">
+                        <img src="img/evocarshare/paper_prototype6-min.png" width="100%" height="auto">
+
+                    </div>
+                </div>
+                <div data-aos="fade-up" class="row featurette aos-init" style="padding-top: 1rem;">
+
+                    <div class="col-md-6">
+                        <img src="img/evocarshare/paper_prototype7-min.png" width="100%" height="auto">
+
+                    </div>
+                    <div class="col-md-6">
+                        <img src="img/evocarshare/paper_prototype8-min.png" width="100%" height="auto">
+
+                    </div>
+                </div>
+                <img style="padding-top: 1rem;" src="img/evocarshare/paper_prototype9-min.png" width="100%"
+                    height="auto">
+
+            </div>
+            <div data-aos="fade-up" class="aos-init">
+                <h2 class="featurette-heading" style="padding-top: 2rem;">Working Prototype</h2>
+
+                <p>After completing the paper prototype, our team decided to use Figma to collaboratively complete
+                    our mid-fidelity prototype. In order to ensure the consistency of the design and the similarity to
+                    the original App, we unified the color code of the App, which are blue (#54B9DE), gray
+                    (#BCC1C2), and black (#000000). We also applied a font similar to the App: Robot Flex for the
+                    title and Commissioner for the body. In addition, we also collected the logo of the Evo car share
+                    through Photoshop's matting function and then placed the logo at the top of the registration
+                    screen. We also searched free licensed SVG files for each icon using Google. After setting up
+                    everything, it took us about 5 days to finish the prototype.</p>
+                <p>In order to provide a better testing experience for usability participants, we connected all pages
+                    to ensure that the prototype was usable. Then, we invited two of our friends who are UI
+                    designers to test the prototype and made some changes based on their feedback.</p>
+                <p>The mid-fidelity prototype is presented as follows:</p>
+                <div data-aos="fade-up" class="row featurette aos-init" style="padding-top: 1rem;">
+
+                    <div class="col-md-6">
+                        <img src="img/evocarshare/midfidelity-1.png" width="100%" height="auto">
+
+                    </div>
+                    <div class="col-md-6">
+                        <img src="img/evocarshare/midfidelity-2.png" width="100%" height="auto">
+
+                    </div>
+                </div>
+                <div data-aos="fade-up" class="row featurette aos-init" style="padding-top: 1rem;">
+
+                    <div class="col-md-6">
+                        <img src="img/evocarshare/midfidelity-3.png" width="100%" height="auto">
+
+                    </div>
+                    <div class="col-md-6">
+                        <img src="img/evocarshare/midfidelity-4.png" width="100%" height="auto">
+
+                    </div>
+                </div>
+                <div data-aos="fade-up" class="row featurette aos-init" style="padding-top: 1rem;">
+
+                    <div class="col-md-6">
+                        <img src="img/evocarshare/midfidelity-5.png" width="100%" height="auto">
+
+                    </div>
+                    <div class="col-md-6">
+                        <img src="img/evocarshare/midfidelity-6.png" width="100%" height="auto">
+
+                    </div>
+                </div>
+            </div>
+            <div data-aos="fade-up" class="aos-init">
+                <h2 class="featurette-heading" style="padding-top: 2rem;">User Testing</h2>
+                <h6 style="text-decoration: underline; padding-top: 1rem;">Methods and Processes</h6>
+                <p>We conducted a usability study on 5 people who had been conveniently sampled to do the
+                    usability test in part 1. The usability study aimed to investigate the ease of access and use of the
+                    Evo Car Share redesign of the mobile application. We developed a user testing protocol to ensure
+                    that we can get the best information from the study. The user testing
+                    consisted of a user test and a short semi-structured interview. The process is similar to the
+                    previous one in Part 1. The only difference is that we did not book the study room for the tester
+                    this time. Instead, we asked our participants to do the test through Zoom, and they were given a
+                    prototype link to do the test on their computers. In order to see the difference in user behavior
+                    between using the redesigned app and the original app, the tasks given to participants are the
+                    same as the ones created in part 1. Meantime, we recorded the testing process and their behavior
+                    on the app for future analysis.</p>
+
+                <h6 style="text-decoration: underline; padding-top: 1rem;">Conclusion</h6>
+                <p>Compared with the Part 1 Usability test, we found that the user spent much less time on each
+                    page when completing each task than in the first test. Plus, everyone made fewer mistakes and
+                    asked fewer questions during the test than before. Regarding the “find a ride” page, we realize
+                    that instruction is needed when introducing a new or updated function to the user. It is also
+                    significant to provide feedback when users complete the vehicle rental. In this case, we accepted
+                    our participant’s advice, creating a notification window when the vehicle is reserved. As for the
+                    “Menu” page, we decided to keep the redesigned layout since 80% of participants are used to
+                    this pattern. In general, all participants said that they preferred the redesigned user interface
+                    because it tremendously improved the user experience of this App. Moreover, most people
+                    thought the “Menu” page was more straightforward and intuitive than the original one.</p>
+
+            </div>
+            <div data-aos="fade-up" class="aos-init">
+                <h2 class="featurette-heading" style="padding-top: 2rem;">Conclusion</h2>
+                <p>The major challenge encountered when it comes to redesigning the existing Evo mobile interface
+                    is not reinventing the wheel while maintaining internal consistency with Evo’s branding. We
+                    29
+                    took into consideration the typography, color palette, and other design patterns used on the
+                    current interface to make sure the consistency of the visual experience throughout the redesigned
+                    version. We also studied design guidelines like the iOS’ Human Interface Guidelines and Web
+                    Content Accessibility Guidelines (WCAG) to create a compelling design with the support of
+                    intuitiveness, usefulness, accessibility, and consistency. Another problem we countered is the
+                    constraint of time, which limited the sample size of our research participants. We admitted that
+                    the lack of diverse samples may bias the research results and impact the design outcome. The
+                    convenience sampling strategy we used to source participants for the usability study and user
+                    testing cannot fully represent the entire population of Evo users. The conclusion of the research
+                    results thus lacks clear generability.</p>
+                <div data-aos="fade-up" class="row featurette aos-init" style="padding-top: 1rem;">
+
+                    <div class="col-md-6">
+                        <p>The perceived success for our team is the deliverable of a mid-fidelity prototype. While it’s
+                            not
+                            highly functional like a high-fidelity prototype or a coded product, it meets the need for
+                            user
+                            testing and has helped us to collect valuable input for future iterations. The design also
+                            succeeds
+                            in providing a simple and navigable account registration process with a progress bar and
+                            clear
+                            instructions on the steps. The redesign of the menu screen better supports novice and
+                            infrequent
+                            users to locate the help information from a cluster of buttons. While the swiping overlap to
+                            switch between the map view and list view is successful, a shortcoming we noticed from the
+                            user
+                            testing is that this function may not be noticeable to inexperienced users. Although we had
+                            an
+                            iOS default overlay grabber on the top of the overlap to indicate potential interactions,
+                            users who
+                            have less experience with digital technology and iOS interfaces may have a hard time
+                            understanding the meaning. Therefore, we later decided to add a coach mark for
+                            first-time users to aid them in learning how to swipe between the map view and the list
+                            view.
+                            Based on other feedback we got, we would also like to provide a clearer indication of the
+                            difference between “call for help” and “contact us” to reduce user friction while looking
+                            for the
+                            help information. A potential way to reword “contact us” to “about us”.</p>
+
+                    </div>
+                    <div class="col-md-6">
+                        <img src="img/evocarshare/coach_mark.png" width="100%" height="auto">
+                        <p style="text-align: center;"><i>Coach Mark</i></p>
+
+                    </div>
+                </div>
+
+                <p>If we had more time, we would like to go more vertical in the prototype design to create a full
+                    product experience for user testing. This could require more tasks to design. For instance,
+                    possible sections and tasks to add include the sign-in process for registered users, trip canceling,
+                    safety check-in, and stopover process. Although some of the tasks are not addressed by our
+                    30
+                    primary personas, those are still critical for Evo users to complete their trips. We also learned
+                    through user testing that push notification is an important interaction to alert users of system
+                    status and possible actions to take. If we had more time for this project, we could possibly create
+                    a push notification design to inform users that the vehicle booking is successful after hitting the
+                    confirm button.</p>
+                <p>The most problematic stage of the design lifecycle is the transition between each design phase,
+                    which is about defining the appropriate scope for the next steps. For example, we struggled with
+                    a large number of qualitative data sets during user research to determine what user needs should
+                    be prioritized considering the time and resources constraint of this project. It took us a lot of
+                    time
+                    to scope down the user personas and task scenarios due to the number of data points. If time
+                    permits, we would like to fully utilize design thinking and double diamond models to explore
+                    issues more widely and narrow down the actions quickly. Another stage we felt was problematic
+                    is the ideate phase which requires a lot of brainpower and design experience to produce potential
+                    design elements. We enjoyed the creative process of transforming the written design requirement
+                    into a paper and pencil prototype towards the end of this project.</p>
+                <p>The most important lesson learned through this project is being agile. We were used to
+                    waterfall-like projects where milestones and deliverables were set in stone at the beginning of the
+                    project. However, our team went through numerous rounds of iterations to refine the scope,
+                    better understand the user needs, and make the design polished. For future projects, more time
+                    could be spent continuously testing out the concept and making adjustments to the design. We
+                    believe that the iterative design approach could help to provide robust user feedback, build rapid
+                    evolution of design, and experiment with a large variety of ideas.</p>
+            </div>
+
+
+
+
+
+
+
+
+
+        </div>
+        <button type="button" class="btn btn-danger btn-floating btn-lg" id="btn-back-to-top">
+            <i class="fas fa-arrow-up"></i>
+        </button>
+
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+            AOS.init({
+                duration: 1000
+            });
+
+        </script>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+    <div id="mid">
+        <div class="mid_word">
+        </div>
+    </div>
+    <!-- sticky footer-->
+    <div class="container">
+
+        <footer class=" row mb-2 footer mt-auto py-3 bg-white">
+
+            <!-- logo-->
+
+            <div class="text-center col-md-6 mb-2">
+
+                <a href="https://www.facebook.com/zhang.william.184/" target="_blank"> <svg viewBox="0 0 512 512"
+                        xmlns="http://www.w3.org/2000/svg" style="width: 30px; margin: 0 1rem 0 1rem;">
+                        <path
+                            d="m437 0h-362c-41.351562 0-75 33.648438-75 75v362c0 41.351562 33.648438 75 75 75h151v-181h-60v-90h60v-61c0-49.628906 40.371094-90 90-90h91v90h-91v61h91l-15 90h-76v181h121c41.351562 0 75-33.648438 75-75v-362c0-41.351562-33.648438-75-75-75zm0 0" />
+                    </svg></a>
+
+                <a href="https://www.instagram.com/trt_willzy/" target="_blank"> <svg viewBox="0 0 511 511.9"
+                        width="30px" xmlns="http://www.w3.org/2000/svg" style="margin: 0 1rem 0 1rem;">
+                        <path
+                            d="m510.949219 150.5c-1.199219-27.199219-5.597657-45.898438-11.898438-62.101562-6.5-17.199219-16.5-32.597657-29.601562-45.398438-12.800781-13-28.300781-23.101562-45.300781-29.5-16.296876-6.300781-34.898438-10.699219-62.097657-11.898438-27.402343-1.300781-36.101562-1.601562-105.601562-1.601562s-78.199219.300781-105.5 1.5c-27.199219 1.199219-45.898438 5.601562-62.097657 11.898438-17.203124 6.5-32.601562 16.5-45.402343 29.601562-13 12.800781-23.097657 28.300781-29.5 45.300781-6.300781 16.300781-10.699219 34.898438-11.898438 62.097657-1.300781 27.402343-1.601562 36.101562-1.601562 105.601562s.300781 78.199219 1.5 105.5c1.199219 27.199219 5.601562 45.898438 11.902343 62.101562 6.5 17.199219 16.597657 32.597657 29.597657 45.398438 12.800781 13 28.300781 23.101562 45.300781 29.5 16.300781 6.300781 34.898438 10.699219 62.101562 11.898438 27.296876 1.203124 36 1.5 105.5 1.5s78.199219-.296876 105.5-1.5c27.199219-1.199219 45.898438-5.597657 62.097657-11.898438 34.402343-13.300781 61.601562-40.5 74.902343-74.898438 6.296876-16.300781 10.699219-34.902343 11.898438-62.101562 1.199219-27.300781 1.5-36 1.5-105.5s-.101562-78.199219-1.300781-105.5zm-46.097657 209c-1.101562 25-5.300781 38.5-8.800781 47.5-8.601562 22.300781-26.300781 40-48.601562 48.601562-9 3.5-22.597657 7.699219-47.5 8.796876-27 1.203124-35.097657 1.5-103.398438 1.5s-76.5-.296876-103.402343-1.5c-25-1.097657-38.5-5.296876-47.5-8.796876-11.097657-4.101562-21.199219-10.601562-29.398438-19.101562-8.5-8.300781-15-18.300781-19.101562-29.398438-3.5-9-7.699219-22.601562-8.796876-47.5-1.203124-27-1.5-35.101562-1.5-103.402343s.296876-76.5 1.5-103.398438c1.097657-25 5.296876-38.5 8.796876-47.5 4.101562-11.101562 10.601562-21.199219 19.203124-29.402343 8.296876-8.5 18.296876-15 29.398438-19.097657 9-3.5 22.601562-7.699219 47.5-8.800781 27-1.199219 35.101562-1.5 103.398438-1.5 68.402343 0 76.5.300781 103.402343 1.5 25 1.101562 38.5 5.300781 47.5 8.800781 11.097657 4.097657 21.199219 10.597657 29.398438 19.097657 8.5 8.300781 15 18.300781 19.101562 29.402343 3.5 9 7.699219 22.597657 8.800781 47.5 1.199219 27 1.5 35.097657 1.5 103.398438s-.300781 76.300781-1.5 103.300781zm0 0" />
+                        <path
+                            d="m256.449219 124.5c-72.597657 0-131.5 58.898438-131.5 131.5s58.902343 131.5 131.5 131.5c72.601562 0 131.5-58.898438 131.5-131.5s-58.898438-131.5-131.5-131.5zm0 216.800781c-47.097657 0-85.300781-38.199219-85.300781-85.300781s38.203124-85.300781 85.300781-85.300781c47.101562 0 85.300781 38.199219 85.300781 85.300781s-38.199219 85.300781-85.300781 85.300781zm0 0" />
+                        <path
+                            d="m423.851562 119.300781c0 16.953125-13.746093 30.699219-30.703124 30.699219-16.953126 0-30.699219-13.746094-30.699219-30.699219 0-16.957031 13.746093-30.699219 30.699219-30.699219 16.957031 0 30.703124 13.742188 30.703124 30.699219zm0 0" />
+                    </svg></a>
+                <a href="https://www.linkedin.com/in/shi-yu-zhang/" target="_blank"> <svg
+                        xmlns="http://www.w3.org/2000/svg" width="30px" style="margin: 0 1rem 0 1rem;"
+                        viewBox="0 0 24 24">
+                        <path
+                            d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
+                    </svg></a>
+            </div>
+
+
+            <div class="text-center text_credit col-md-6">
+                <!--text_credit here used to make sure the text and logo can go to the middle when the screen size swtich to mobile size-->
+                <span class="text-muted">©2023 「SHIYU ZHANG」All rights reserved.</span>
+            </div>
+
+        </footer>
+    </div>
+
+
+    <!-- see also: https://jquery.com/download/  -->
+    <script src="js/jquery.slim.min.js"></script>
+    <!-- see also: https://getbootstrap.com/docs/4.4/getting-started/contents/#js-files -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/back_to_top_button.js"></script>
+   
+    <script>
+        function openNav() {
+            document.getElementById("myNav").style.height = "100%";
+        }
+
+        function closeNav() {
+            document.getElementById("myNav").style.height = "0%";
+        }
+
+    </script>
+
+
+
+</body>
+
+</html>
